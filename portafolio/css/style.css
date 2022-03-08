@@ -1,0 +1,261 @@
+body{
+    font-familia: 'Montserrat', sans-serif;
+   background: #66CDAA;
+   background: linear-gradient(#F0F8FF, #6495ED);
+    
+}
+.fondo{
+    width: 100%;   
+}
+
+header{
+    background: linear-gradient(#8FBC8F, #20B2AA);
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+.encabezado{
+   
+    height: 20px;
+    position: relative;
+    padding: 20px 0;
+       
+}
+
+div p{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.nombre:hover{
+    
+    color: #114103;
+    text-decoration: underline;
+    font-size: 24px;    
+}
+
+nav{
+    position: absolute;
+    bottom: 5px;
+    right: 80px;
+    margin-bottom: 10px;
+}
+
+nav li{
+    display: inline;    
+}
+
+nav a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0e23dd;
+    text-decoration: underline;
+}
+
+.foto{
+    width: 120px;
+    float: left;
+    padding: 20px;  
+    
+}
+.enlaces{
+    height: 175px;
+    padding-top: 80px;
+    line-height: 150%;
+}
+
+.enlaces li, a{
+    font-size: 18px;
+    display: inline;
+    text-decoration: none;
+    padding: 5px;   
+}
+
+.enlaces p{
+    padding: 20px;
+    font-size: 18px;   
+}
+.enlaces strong{
+    font-weight: bold;
+}
+
+.enlaces ul{
+    margin-left: 50px;
+} 
+
+
+.info-personal{
+    padding: 20px;
+}
+
+.info-personal h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
+
+.info-personal strong, h1{
+    font-weight: bold;
+}
+
+.info-personal em{
+    font-style: italic;
+}
+
+.info-personal p{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+#objetivos{
+    padding: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.info-personal ul{
+    padding: 10px;
+    margin-left: 15px;
+    line-height: 15%;
+}
+.info-personal li{
+    padding: 10px;
+   font-size: 18px;
+   text-align: left;
+   font-weight: normal;
+}
+
+
+.conocimientos{
+    width: 940px;    
+    margin: 0 auto;
+    padding: 50px;
+}
+.conocimientos li{
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    height: 250px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #EEE8AA;
+    
+}
+
+.conocimientos li:hover{
+    border-color: #C78C19;
+    
+}
+
+.conocimientos li:active{
+    border-color: #088C19;
+}
+
+.conocimientos h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;  
+    padding: 15px;  
+}
+
+.conocimientos li:hover, h2{
+    font-size: 30px;  
+    font-weight: bold;  
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.conocimientos img{
+    width: 120px;
+}
+
+#formacion ul{
+    text-align: center;
+
+}
+
+#formacion h2, li{
+    font-size: 25px;  
+    font-weight: bold;  
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;    
+    
+}
+#proyectos ul{
+    text-align: center;
+}
+#proyectos li{
+   width: 25%;
+}
+
+form{
+    margin-left: 30px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20;
+    padding: 10px 25px;
+    width: 50%;
+    background-color: #95c5f1;
+}
+
+.enviar{
+    margin-top: 10px;
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+
+footer{    
+    margin-top: 10px;
+    width:100%;
+    height:125px;
+    text-align: center;
+    background: linear-gradient(#EEE8AA, #688E23);
+    padding: 20px;
+    
+    
+    
+}
+footer img{
+    width: 100px; 
+       
+}

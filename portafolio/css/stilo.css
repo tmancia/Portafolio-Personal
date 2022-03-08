@@ -1,0 +1,148 @@
+header{
+background-color: aquamarine;
+}
+main{
+background-color: bisque;
+}
+
+
+header{
+    background-color: #BBBBBB;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+.encabezado{
+   
+    height: 20px;
+    padding: 20px 0;
+       
+}
+
+div p{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.nombre:hover{
+    
+    color: #114103;
+    text-decoration: underline;
+    font-size: 24px;    
+}
+
+nav{
+    position: absolute;
+    bottom: 5px;
+    right: 80px;
+    margin-bottom: 10px;
+}
+
+nav li{
+    display: inline;    
+}
+
+nav a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0e23dd;
+    text-decoration: underline;
+}
+
+   
+    .foto{
+        width: 120px;
+        float: left;
+        padding: 20px;    
+    }
+    .enlaces{
+        line-height: 150%;
+        height: 175px;
+    padding-top: 80px;
+    }
+    
+    .enlaces li, a{
+        font-size: 16px;
+        display: inline;
+        text-decoration: none;
+        padding: 5px;   
+    }
+    
+    .enlaces p{
+        padding: 20px;
+        font-size: 18px;   
+    }
+    .enlaces strong{
+        font-weight: bold;
+    }
+    
+    .enlaces ul{
+        margin-left: 50px;
+    } 
+
+    .info-personal{
+        padding: 20px;
+    }
+    
+    .info-personal h1{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .info-personal strong, h1{
+        font-weight: bold;
+    }
+    
+    .info-personal em{
+        font-style: italic;
+    }
+    
+    .info-personal p{
+        padding: 10px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    #objetivos{
+        padding: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    
+    .info-personal ul{
+        padding: 10px;
+        margin-left: 15px;
+        line-height: 15%;
+    }
+    .info-personal li{
+        padding: 10px;
+       font-size: 16px;
+       text-align: left;
+       font-weight: normal;
+    }
+    
+    
+
+/*######################*/
+footer{
+    text-align: center;
+    height:150px;
+    padding: 10px;
+    background-color: rgb(210, 192, 226);
+}
+footer img{
+    width: 100px; 
+       
+}
