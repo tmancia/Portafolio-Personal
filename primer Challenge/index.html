@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-AU-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador Desencriptador</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<h1 class="titulo">Ingrese Un Texto</h1>
+	<main class="main">
+		<section class="form box">
+			
+				<label for="input-texto">Solo letras minusculas sin acento</label>
+				<input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" onkeypress="return sololetras(event)" onpaste="return false">
+				
+				<input class="btn" type="submit" value="encriptar" id="btn-encriptar" onclick="encriptar()">
+				<input class="btn" type="submit" value="desencriptar" id="btn-desencriptar" onclick="desencriptar()">
+			
+		</section>
+
+		<section class="msg box">
+			<h2 id="">Mensaje Encriptado:</h2>
+			<input class="text-input" type="text" id="texto2" onkeypress="return sololetras(event)" onpaste="return false"></input>
+			
+			<input class="btn" type="submit" value="Copiar!" id="btn-copiar" onclick="copiar();">
+		</section>
+		</main>
+		<div class="footer">
+    <footer>
+        <p>Desarrollado por .::.Tulio Mancia.::.</p>
+        <p>Bajo tutorias de Alura Latam</p>
+    </footer>
+</div>
+	
+
+	<script type="text/javascript" src="script.js"></script>
+
+	
+	
+	
+
+</body>
+</html>
