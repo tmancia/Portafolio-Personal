@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Login</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/style.css">
+      
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header class="encabezado">
+
+            <nav class="container">
+
+                <ul class="encabezado__items">
+
+                    <li><img src="img/Logo Principal.svg" alt="Logo Alura Geek" class="encabezado__items-logo"></li>
+                    
+                    <li>
+                        <div class="encabezado__items-buscador">
+                            <input type="text" class="encabezado__items-buscar" placeholder="¿Qué querés buscar?">
+                            <button class="encabezado__input-lupa"></button>
+                        </div>    
+                    </li>
+
+                    <li class="encabezado__items-boton"><a class="encabezado__boton"  href="#">Login</a></li>
+                    
+                    <li><img src="img/lupa.png" alt="Ícono lupa" class="encabezado__items-lupa"></li>
+                
+                </ul>
+
+            </nav>
+
+    </header>
+    
+        <main>
+
+            <div class="iniciarSesion">
+
+                <p class="iniciarSesion__formulario--titulo">Iniciar Sesión</p>
+
+                <form class="iniciarSesion__formulario--form">
+
+                    <label for="mail"></label>
+                    <input type="email" class="input-form" required placeholder="Escribí tu mail">
+                    
+                    <label for="contraseña"></label>
+                    <input type="password" class="input-form" required data-tipo="password" placeholder="Escribí tu contraseña">
+                    
+                    <input type="submit" value="Entrar" id="entrar" class="principal__boton">
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+
+            <section class="footer__principal">
+
+                <div class="footer__informacion">
+
+                    <img src="img/Logo Principal.svg" alt="Logo" class="footer__logo"></img>
+
+                    <ul class="footer__links">
+                        <li class="footer__links--items"><a href="#">Quienes somos</a></li>
+                        <li class="footer__links--items"><a href="#">Política de privacidad</a></li>
+                        <li class="footer__links--items"><a href="#">Política de fidelidad</a></li>
+                        <li class="footer__links--items"><a href="#">Nuestras tiendas</a></li>
+                        <li class="footer__links--items"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="footer__links--items"><a href="#">Anunciá acá</a></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="formulario">
+
+                    <p class="formulario--titulo">Hablemos</p>
+
+                    <form class="formulario--form">
+
+                        <label for="nombreapellido"></label>
+                        <textarea cols="70" rows="2" class="input-padron" required placeholder="Nombre y Apellido"></textarea>
+                    
+                        <label for="mensaje"></label>
+                        <textarea cols="70" rows="10" class="input-padron" required placeholder="Escribí tu mensaje"></textarea>
+                        
+                        <input type="submit" value="Enviar mensaje" class="principal__boton">
+
+                    </form>
+
+                </div>
+                
+            </section>
+
+            <section class="footer__developer">
+
+                <h4 class="developer">&copy Copyright Desarrollado por Tulio Mancia - 2022 </h4>               
+
+               
+            </section>
+
+        </footer>
+
+
+    </body>
+
+</html>
+

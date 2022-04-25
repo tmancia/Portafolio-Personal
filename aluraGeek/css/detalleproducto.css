@@ -1,0 +1,135 @@
+.detalles{
+   
+    display: block;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.detalle-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 3rem;
+}
+.detalles .img-fluid{
+    max-width: 380px;
+    width: 100%;   
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .2);
+} 
+
+.detalles-content h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.price{
+    margin-top: 10px;
+}
+.detalles-content .price span{
+    color: var(--azul);
+    font-size: 2rem;
+    font-weight: 600;
+       
+}
+.detalles-content .description{
+    padding-top: 1rem;
+}
+.detalles-content .description span{
+    line-height: 1.8rem;
+}
+
+/**/
+.Productos__header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.Productos__header--titulo {
+    color: #100f0f;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.Productos__header--mas {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.Productos__verTodo {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Productos__items {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem;
+   
+}
+
+.Productos__items img{
+    width: 160px;
+}
+
+.producto__nombre {
+    color: #bdb5b5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    padding-top: 8px;
+}
+
+.producto__precio {
+    color: #bdb5b5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-top: 8px;
+}
+
+.producto__ver {
+    color: #3e9bf5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    padding-top: 8px;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .Productos__items {
+        padding: 1rem;
+       
+        
+    }
+
+   
+    
+}
+
+@media only screen and (max-width: 1240px){
+    .detalle-grid{
+        grid-template-columns: 1fr;
+        
+    }
+}

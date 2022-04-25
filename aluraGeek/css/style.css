@@ -1,0 +1,15 @@
+body {
+    font-family: 'Raleway', Arial,sans-serif;
+}
+
+.container {
+    background-color: #FFFFFF;
+	padding: 16px;
+    margin: 0 auto;
+}
+
+.header__boton {
+    font-weight: "semi bold";
+	font-size: 14px;
+    text-decoration: none;
+}

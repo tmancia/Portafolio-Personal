@@ -1,0 +1,83 @@
+.bannerPrincipal {
+    align-items: flex-start;
+    align-self: stretch;
+    background-image: url(../img/banner-image.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+.bannerPrincipal__titulo {
+    align-self: stretch;
+    color: #FFFFFF;
+    flex-grow: 0;
+    font-family: 'Raleway', Arial,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.bannerPrincipal__descuento {
+    align-self: stretch;
+    color: #FFFFFF;
+    flex-grow: 0;
+    flex: none;
+    font-family: 'Raleway', Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 8px 0px;
+}
+
+.principal__boton {
+    align-items: center;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;    
+    color: #FFFFFF;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+
+    .bannerPrincipal {
+        height: 65vh;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+        gap:1rem;
+    }
+
+    .bannerPrincipal__titulo {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 61px;
+    }
+
+    .bannerPrincipal__descuento {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        width: 100%;
+    }
+ 
+}
+
+/* Photo by <a href="https://unsplash.com/@theeastlondonphotographer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ehimetalor Akhere Unuabona</a> on <a href="https://unsplash.com/s/photos/play-videogames?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    */

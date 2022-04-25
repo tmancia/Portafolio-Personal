@@ -1,0 +1,157 @@
+.footer {
+    background: #EAF2FD;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer__principal {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__informacion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.footer__logo {
+    cursor: pointer;
+    flex: none;
+    flex-grow: 0;
+    margin-top: 16px;
+    max-width: 200px;
+    order: 0;
+    width: 50%;
+}
+
+.footer__links--items {
+    align-self: stretch;
+    color: #bdb5b5;
+    flex: none;
+    flex-grow: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 0px;
+}
+
+.formulario--form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario--titulo {
+    color: #bdb5b5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    
+    align-self: stretch;
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    margin: 8px 0px;
+}
+
+.input-padron {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 1rem;
+    width: 90%;
+
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.input-padron::placeholder {
+    align-items: center;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 4px 4px;
+}
+
+.principal__boton {
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.footer__developer {
+    align-items: center;
+    background-color: #EAF2FD;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.iconify {
+    cursor: pointer;
+}
+
+.developer {
+    align-items: center;
+    color: #bdb5b5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer__principal {
+        align-items:flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__logo {
+        align-items: top;
+        margin-top: 8px;
+    }
+
+    .footer__informacion {
+        align-items: flex-start;
+        height: 100%;
+        text-align: left;
+        width: 40%;
+    }
+
+    .formulario {
+        height: 60%;
+        width: 60%;
+    }
+
+    .principal__boton {
+        width: 194px;
+    }
+
+}
